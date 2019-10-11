@@ -1,28 +1,28 @@
 # SIT-DSA
-#include <stdio.h>
-    long long int input();
-     void output(long long int);
-    int main()
+        #include <stdio.h>
+        long long int input();
+         void output(long long int);
+        int main()
 
-    {
-      long long int c;
+        {
+          long long int c;
 
-    c= input();
+        c= input();
 
-    output(c);
+        output(c);
 
-    }
-    long long int input()
-    {	
-    long long int b;
-    printf("Enter PRN:");
-      scanf("%lld",&b);
-      return b;
-    }
+        }
+        long long int input()
+        {	
+        long long int b;
+        printf("Enter PRN:");
+          scanf("%lld",&b);
+          return b;
+        }
 
 
-    void
-     output(long long int a)	
-    {
-      printf("PRN is: %lld",a);
-          }	
+        void
+         output(long long int a)	
+        {
+          printf("PRN is: %lld",a);
+              }	
